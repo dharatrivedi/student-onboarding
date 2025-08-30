@@ -12,8 +12,7 @@
    - On Windows, select the option to add Anaconda to your PATH and make it the default Python.  
 3. Verify installation by opening a terminal and running:  
 
-```bash
-   conda --version
+Use `conda --version` to check your Conda installation.
 
 ---
 
@@ -22,13 +21,13 @@
 
 1. Open your terminal.  
 2. Create a new environment, for example:  
-conda create -n research python=3.11
+`conda create -n research python=3.11`
 
 3. Activate the environment:  
-conda activate research
+`conda activate research`
 
 4. Optional: Save your environment for sharing or backup:  
-conda env export > setup/environment.yml
+`conda env export > setup/environment.yml`
 
 
 ---
@@ -37,10 +36,10 @@ conda env export > setup/environment.yml
 **Task:** Use Jupyter for interactive Python learning and notebook-based workflows.
 
 With your environment activated, run:  
-conda install -c conda-forge jupyterlab
+`conda install -c conda-forge jupyterlab`
 
 Verify installation:  
-jupyter lab
+`jupyter lab`
 
 This should open Jupyter Lab in your default browser.
 
@@ -53,13 +52,13 @@ Go through the [MolSSI Python Scripting for Computational Molecular Science](htt
 
 ## Optional Tips
 - **Activate environment quickly:**  
-conda activate research
+`conda activate research`
 
 - **Deactivate environment:**  
-conda deactivate
+`conda deactivate`
 
 - **Recreate environment from file (if provided):**  
-conda env create -f setup/environment.yml
+`conda env create -f setup/environment.yml`
 
 ---
 
