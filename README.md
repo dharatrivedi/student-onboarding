@@ -11,9 +11,9 @@
 2. Run the installer:
    - **Windows:** Double-click the .exe file and follow the prompts. Check the box to add Anaconda to your PATH (recommended for simplicity, despite the installer’s warning) and make it the default Python.
    - **macOS/Linux:** Open a terminal, navigate to the download directory, and run the .sh installer:
-   - -Linux: bash Anaconda3-latest-Linux-x86_64.sh
-   - -macOS: bash <replace-with-downloaded-filename>.sh
-   - 
+     -Linux: `bash Anaconda3-latest-Linux-x86_64.sh`
+     - macOS: `bash <replace-with-downloaded-filename>.sh`
+       
 Follow the prompts, accept the license, and choose the installation location (default is `~/anaconda3`). Agree to initialize Conda by adding it to your shell’s startup file (e.g., `.bashrc` or `.zshrc`).
 3. Verification: After installation, close and reopen your terminal to refresh the shell.
    Use `conda --version` to check your Conda installation.
