@@ -2,6 +2,8 @@
 
 **Aim:** Set up your local machine for research. This setup will also be useful when connecting to HPC resources.
 
+---
+
 ## Step 1: Install Anaconda
 **Task:** Manage Python environments and packages efficiently.
 
@@ -9,7 +11,8 @@
 2. Run the installer and follow instructions.  
    - On Windows, select the option to add Anaconda to your PATH and make it the default Python.  
 3. Verify installation by opening a terminal and running:  
-conda --version
+
+Use `conda --version` to check your Conda installation.
 
 ---
 
@@ -19,12 +22,11 @@ conda --version
 1. Open your terminal.  
 2. Create a new environment, for example:  
 conda create -n research python=3.11
+
 3. Activate the environment:  
 conda activate research
 
 4. Optional: Save your environment for sharing or backup:  
-
-
 conda env export > setup/environment.yml
 
 
@@ -34,14 +36,9 @@ conda env export > setup/environment.yml
 **Task:** Use Jupyter for interactive Python learning and notebook-based workflows.
 
 With your environment activated, run:  
-
-
 conda install -c conda-forge jupyterlab
 
-
 Verify installation:  
-
-
 jupyter lab
 
 This should open Jupyter Lab in your default browser.
@@ -55,20 +52,13 @@ Go through the [MolSSI Python Scripting for Computational Molecular Science](htt
 
 ## Optional Tips
 - **Activate environment quickly:**  
-
-
 conda activate research
 
 - **Deactivate environment:**  
-
-
 conda deactivate
 
 - **Recreate environment from file (if provided):**  
-
-
 conda env create -f setup/environment.yml
-
 
 ---
 
