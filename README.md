@@ -67,6 +67,6 @@ Go through the [MolSSI Python Scripting for Computational Molecular Science](htt
 ---
 
 ## Additional Resources
-- [MolSSI Python Tutorial Notes](tutorials/molssi_python.md) – Optional detailed notes.  
+- [MolSSI Python Tutorial Notes](https://education.molssi.org/python_scripting_cms/index.html) – Optional detailed notes.  
 - [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)  
 - [Jupyter Lab Documentation](https://jupyterlab.readthedocs.io/en/stable/)
