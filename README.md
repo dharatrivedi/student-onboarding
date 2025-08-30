@@ -12,7 +12,8 @@
    - On Windows, select the option to add Anaconda to your PATH and make it the default Python.  
 3. Verify installation by opening a terminal and running:  
 
-Use `conda --version` to check your Conda installation.
+```bash
+   conda --version
 
 ---
 
