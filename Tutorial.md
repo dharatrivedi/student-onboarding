@@ -111,5 +111,3 @@ To set up your `.bashrc` or `.zshrc` file on a Windows machine using MobaXterm's
 - **Jupyter Lab Doesn’t Open in Browser**:
   - Manually navigate to the URL shown in the terminal (e.g., `http://localhost:8888`).
   - Ensure no other process is using port 8888 (`netstat -a -n -o | find "8888"` in Windows Command Prompt).
-
-If you encounter specific errors or need help with a particular step, provide details (e.g., error messages, Windows version, MobaXterm version, Anaconda path), and I’ll assist further!
