@@ -4,7 +4,7 @@ To set up your `.bashrc` or `.zshrc` file on a Windows machine using MobaXterm's
 - **Anaconda** is installed (e.g., in `C:\Users\Your_Username\Anaconda3` or a custom path).
 - **MobaXterm** is installed (either Portable or Installer Edition).
 - MobaXterm’s local terminal is working.
-- You’re using either Bash or Zsh as your shell in MobaXterm’s local terminal.
+- You can use either Bash or Zsh as your shell in MobaXterm’s local terminal.
 
 ### Steps to Configure `.bashrc` or `.zshrc`
 
